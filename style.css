@@ -1,0 +1,92 @@
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#042590;
+    
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+.outerbox{
+    border: 2px solid white;
+    height: 400px;
+    width: 1000px;
+    margin: auto;
+   
+}
+.ficon{
+    border: 0px yellow solid;
+    height: 400px;
+    width: 200px;
+    float: left;
+    color: white;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.fouterbox{
+    border: 0px yellow solid;
+    height: 360px;
+    width: 200px;
+    float: left;
+    width: 792px;
+    background-color: #f1f1f1;
+    margin-top: 20px;    
+    border-radius: 220px 0 0 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fouterbox .main{
+    border: 0px solid red;
+    height: 300px;
+    width: 640px;
+    float: left;
+}
+.fouterbox .main .left,.right{
+    border: 0px solid red;
+    height: 300px;
+    width: 315px;
+    float: left;
+    
+}
+.fouterbox .main .left input[type='text'], .right select{
+    width: 95%;
+    height: 35px;
+    margin-bottom: 10px;
+    border:black solid 1px;
+    border-radius: 5px;
+    
+}
+.fouterbox .main .right textarea{
+    width: 95%;
+    height: 70px;
+
+}
+.fouterbox .main .left input[type='submit'], .right input[type='reset']{
+    width: 95%;
+    height: 35px;
+    margin-bottom: 10px;
+    border:black solid 1px;
+    border-radius: 5px;
+}
+.submit{
+    background-color: chartreuse;
+    color: white;
+    font-size: 17px;
+    margin-top: 20px;
+}
+.reset{
+    background-color: red;
+    color: white;
+    font-size: 17px;
+    margin-top: 40px;
+}
